@@ -20,10 +20,9 @@ def guess(answer, count=1):
 
     if answer > num:
         print("Загаданное число больше")
-        return guess(answer, count + 1)
     else:
         print("Загаданное число меньше")
-        return guess(answer, count + 1)
+    return guess(answer, count + 1)
 
 
 answer = random.randint(0, 100)

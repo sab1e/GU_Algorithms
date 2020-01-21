@@ -11,7 +11,7 @@
 # если он ввел его в качестве делителя.
 
 
-operator = 1
+operator = '1'
 
 while operator != '0':
     a = float(input("Введите первое число: "))
